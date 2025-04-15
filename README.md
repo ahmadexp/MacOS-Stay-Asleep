@@ -35,3 +35,13 @@ If you want to run this automatically on wake:
 Create a file at: ~/Library/LaunchAgents/com.local.checkwake.plist
 
 The contents of this file are in the repo (above).
+
+Load the script via:
+
+```
+launchctl load ~/Library/LaunchAgents/com.local.checkwake.plist
+```
+
+I hope this can help.
+
+I do not guarantee anything; you should use this at your own risk.
