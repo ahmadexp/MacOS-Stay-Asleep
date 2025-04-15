@@ -1,5 +1,8 @@
-# MacOS-Stay-Asleep
+## MacOS-Stay-Asleep
+
 A script to take care of your Macbook and put it back to sleep if it gets woken up via an unwanted background task while the lid is off.
+
+# How
 
 To write a macOS script that checks if the machine was woken up while the lid is closed and then puts it back to sleep, we need to:
 
@@ -19,8 +22,16 @@ We can use system logs to detect wake events.
 
 Here’s a script using pmset, ioreg, and system_profiler that can be run via a launchd agent or cron job (though launchd is recommended on macOS).
 
-Make sure to set the right permission for the script to be executable using:
+# Make sure to set the right permission for the script to be executable using:
 
 ```
 chmod +x check_wake_and_lid.sh
 ```
+
+# Automate the process:
+
+If you want to run this automatically on wake:
+
+Create a file at: ~/Library/LaunchAgents/com.local.checkwake.plist
+
+The contents of this file are in the repo (above).
