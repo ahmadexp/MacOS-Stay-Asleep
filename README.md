@@ -19,7 +19,7 @@ We can use system logs to detect wake events.
 
 Here’s a script using pmset, ioreg, and system_profiler that can be run via a launchd agent or cron job (though launchd is recommended on macOS).
 
-Make sure to set the right permission for the script using:
+Make sure to set the right permission for the script to be executable using:
 
 ```
 chmod +x check_wake_and_lid.sh
