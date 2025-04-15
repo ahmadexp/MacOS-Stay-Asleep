@@ -1,4 +1,6 @@
-# MacOS-Stay-Asleep
+# MacLatonin: Keep your MacBook asleep
+
+<img width="846" alt="Screenshot 2025-04-15 at 9 25 25 AM" src="https://github.com/user-attachments/assets/146df1b9-9b90-4764-a5f4-8a7dabe3e5cb" />
 
 A script to take care of your Macbook and put it back to sleep if it gets woken up via an unwanted background task while the lid is off.
 
