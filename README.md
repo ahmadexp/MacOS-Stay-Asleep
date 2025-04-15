@@ -32,9 +32,11 @@ chmod +x check_wake_and_lid.sh
 
 If you want to run this automatically on wake:
 
-Create a file at: ~/Library/LaunchAgents/com.local.checkwake.plist
+Copy the com.local.checkwake.plist file to: ~/Library/LaunchAgents/com.local.checkwake.plist
 
-The contents of this file are in the repo (above).
+```
+sudo cp com.local.checkwake.plist ~/Library/LaunchAgents/
+```
 
 Load the script via:
 
